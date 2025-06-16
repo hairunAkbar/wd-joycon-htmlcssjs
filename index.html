@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JoyCon</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <!-- buat komponen yang menggambarkan controller @MUTAMA -->
@@ -43,5 +44,31 @@
     <!--  -->
     <!-- kamu boleh menambahkan sprite di samping textscreen yang sudah ada @POINPLUS -->
     <!-- di ujung kanan bawah, tambahkan informasi NIM, nama, dan link Github @UTAMA -->
+  <div class="container">
+    <div id="result">Hello Pak Irwan!</div>
+    <div class="joycon">
+      <div class="left">
+        <button onclick="show('Thank U')">Atas</button>
+        <div class="tombolan">
+          <button onclick="show('Untuk')">Kiri</button>
+          <button onclick="show('Satu')">Bawah</button>
+          <button onclick="show('Semesternya!')">Kanan</button>
+        </div>
+      </div>
+      <div class="right">
+        <button onclick="show('See U')">First</button>
+        <button onclick="show('On Top!')">Second</button>
+      </div>
+    </div>
+  </div>
+  
+ <footer >
+    <div class = "footer-links">
+        <p>23430250 | Muhammad Hasbi Hairun Akbar | <a href="https://github.com/hairunAkbar" target="_blank">github.com/hairunAkbar</a></p>
+        </div>
+ </footer>
+
+  <script src="script.js"></script>
+
 </body>
 </html>
